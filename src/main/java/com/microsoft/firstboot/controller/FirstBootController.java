@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstBootController {
     @RequestMapping(value = "/sayHello", method = RequestMethod.GET)
     public String sayHello () {
-        return "hello, this is my first boot program!! and test GIT";
+        return "hello, this is my first boot program!! and test GIT message";
     }
 
 }
